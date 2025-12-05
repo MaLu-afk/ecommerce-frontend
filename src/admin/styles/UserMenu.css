@@ -1,0 +1,18 @@
+/* src/admin/styles/UserMenu.css */
+.user-menu-button {
+  background-color: #3B001E;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.user-menu-button:hover {
+  background-color: #2a0015;
+}
+
+.user-menu-role {
+  color: #e9d5ff;
+}
+
+.user-menu-name {
+  color: #ffffff;
+}

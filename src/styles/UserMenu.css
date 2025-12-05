@@ -1,0 +1,35 @@
+/* src/styles/UserMenu.css */
+
+.user-menu-button {
+  background-color: #3B001E; /* Color morado personalizado */
+  min-width: 48px; /* Ancho mínimo para el botón */
+}
+
+.user-menu-button:hover {
+  background-color: #52002a; /* Color hover más oscuro */
+}
+
+.user-menu-role {
+  color: #e9d5ff; /* Color claro para el rol */
+}
+
+.user-menu-name {
+  color: #ffffff; /* Blanco para el nombre */
+}
+
+/* Estilo para el avatar */
+.user-menu-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+/* Responsive: en móvil solo mostrar el avatar */
+@media (max-width: 640px) {
+  .user-menu-button {
+    padding: 0.5rem;
+    min-width: auto;
+  }
+}
